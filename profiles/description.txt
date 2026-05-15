@@ -1,1 +1,1 @@
-I care about Time Series, XAI for Time Series, AI for Earth, AI for Ocean, XAI for Earth, XAI for Ocean.
+My research focuses on long-term time series forecasting, State Space Models (SSM), and Mamba architecture. I am particularly interested in the application of cutting-edge technologies—including agents and large language models—in time series forecasting.
