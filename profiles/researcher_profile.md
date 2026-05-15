@@ -2,40 +2,38 @@
 
 ## Research Interests
 
-I care about Time Series, XAI for Time Series, AI for Earth, AI for Ocean, XAI for Earth, XAI for Ocean.
+I care about Long-Term Time Series Forecasting, State Space Models (SSM), Mamba Architecture, Large Language Models (LLMs) for Time Series, and AI Agents for Time Series.
 
 ## Detailed Directions
 
 ### Primary Areas
-1. **Time Series** — Forecasting, anomaly detection, and temporal reasoning; deep learning and classical methods for sequential data; applications to scientific and environmental domains.
-2. **XAI for Time Series** — Explainability for temporal models; counterfactual explanations for forecasting; interpreting predictions in financial, climate, and sensor data.
-3. **AI for Earth** — AI applied to earth observation, climate modeling, and environmental science; geospatial data analysis.
-4. **AI for Ocean** — AI for ocean science; marine data modeling; underwater and ocean monitoring systems.
-5. **XAI for Earth** — Explainable AI for earth science; interpreting satellite data models; climate attribution and environmental prediction.
-6. **XAI for Ocean** — Explainable AI for ocean science; interpreting marine model outputs; causal reasoning for ocean dynamics.
+1. **Long-Term Time Series Forecasting** — Modeling extended temporal horizons, capturing long-range dependencies, and addressing non-stationarity in complex, multi-variate sequential data.
+2. **State Space Models & Mamba Architecture** — Advancing next-generation sequence models; adapting Mamba and structured SSMs for continuous and discrete temporal data; optimizing linear-time complexity for ultra-long sequences.
+3. **LLMs for Time Series** — Integrating large language models into temporal forecasting; exploring cross-modal transfer learning, prompt engineering, and parameter-efficient fine-tuning for zero-shot/few-shot forecasting.
+4. **AI Agents for Time Series** — Designing autonomous agent frameworks for automated data analysis, tool usage, collaborative forecasting, and interactive reasoning over sequential workflows.
 
 ### Sub-directions
-- Causal inference for environmental science
-- Physics-informed neural networks for earth/ocean
-- Remote sensing and satellite data analysis
-- Uncertainty quantification in environmental ML
+- Linear-time sequence modeling alternatives to Transformers
+- Foundation models for continuous physical and behavioral data
+- Multimodal time series (aligning text, metadata, and numerical metrics)
+- Scaling laws and emergent abilities in temporal foundation models
 
 ## NOT Interested In
 
-- Agent/robotics research
-- Standard NLP tasks without scientific application
-- Computer vision without scientific context
-- Hardware security, network intrusion detection
-- Classical ML without scientific application
+- Pure robotics or hardware-constrained agent control
+- Standard NLP tasks (e.g., translation, sentiment analysis) lacking temporal or numeric context
+- Computer vision without sequential or multimodal forecasting applications
+- Classical ML/statistical forecasting (e.g., basic ARIMA/ETS) without deep learning or foundational scale
+- Hardware security and network intrusion detection
 
 ## Target Venues
 
-- Science/AI: Nature, Science, Nature ML/AI
-- Time Series: KDD, NeurIPS (Time Series workshop), ICML
-- XAI: AIES, FAccT, CHI
+- Core AI/ML: NeurIPS, ICML, ICLR
+- Data Mining & Knowledge Discovery: KDD, WSDM, WebConf (WWW)
+- NLP & Foundation Models (for Agent/LLM intersections): ACL, EMNLP, NAACL
 
 ## Research Style
 
-- Science-driven and interpretability-first
-- Prefer methods that explain WHY a prediction is made
-- Interested in fundamentally different approaches beyond pure scale
+- Architecture-driven and efficiency-first (favoring $O(N)$ linear complexity over $O(N^2)$ quadratic scaling)
+- Intersection-focused, bridging the gap between discrete linguistic models and continuous temporal data
+- Driven by structural innovation rather than just brute-force scale optimization
